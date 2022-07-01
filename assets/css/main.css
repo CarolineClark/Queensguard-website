@@ -2162,6 +2162,38 @@ input, select, textarea {
 		color: #fff;
 	}
 
+	.nora {
+		background-image: url("images/overlay.png"), url("../../images/nora.jpg");
+		background-size: contain;
+		background-repeat: no-repeat;
+		box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5);
+		color: #fff;
+	}
+
+	.victoria {
+		background-image: url("images/overlay.png"), url("../../images/victoria.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+		box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5);
+		color: #fff;
+	}
+
+	.valerie {
+		background-image: url("images/overlay.png"), url("../../images/Valerie.jpg");
+		background-size: contain;
+		background-repeat: no-repeat;
+		box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5);
+		color: #fff;
+	}
+
+	.alex {
+		background-image: url("images/overlay.png"), url("../../images/alex.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+		box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5);
+		color: #fff;
+	}
+
 
 	.dark .feature-icon:before, .dark .feature-icon:after {
 		background: rgba(255, 255, 255, 0.5);
@@ -2209,6 +2241,7 @@ input, select, textarea {
 		position: relative;
 		margin: 0;
 		background-image: url("images/overlay.png"), url("../../images/header.png");
+		/* filter:brightness(80%); */
 		background-size: auto, cover;
 		background-position: top left, center center;
 		background-repeat: repeat, no-repeat;
@@ -2221,6 +2254,14 @@ input, select, textarea {
 			font-size: 2.25em;
 			line-height: 1.25em;
 			margin-bottom: 0;
+		}
+
+		#header header img {
+			text-align:left;
+			margin-left:-40%;
+			width:30%;
+			height:30%;
+			filter:brightness(200%);
 		}
 
 		#header header p {
