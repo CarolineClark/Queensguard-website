@@ -29,6 +29,7 @@ canvas, details, embed, figure, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
 	margin: 0;
+	min-height: 100%;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
@@ -2247,9 +2248,9 @@ input, select, textarea {
 		background-image: url("images/overlay.png"), url("../../images/header.png");
 		/* filter:brightness(80%); */
 		background-size: auto, cover;
-		background-position: top left, center center;
+		background-position: center center;
 		background-repeat: repeat, no-repeat;
-		padding: 14em 0 14em 0;
+		padding: 3em 0 3em 0;
 		text-align: center;
 		color: #fff;
 	}
@@ -2262,7 +2263,7 @@ input, select, textarea {
 
 		#header header img {
 			text-align:left;
-			margin-left:-40%;
+			margin-left:0%;
 			width:30%;
 			height:30%;
 			filter:brightness(200%);
@@ -2369,6 +2370,11 @@ input, select, textarea {
 			body, input, textarea, select {
 				font-size: 15pt;
 				line-height: 1.75em;
+			}
+		/* Header */
+
+			#header {
+				padding: 12em 0 12em 0;
 			}
 
 	}
