@@ -2207,6 +2207,14 @@ input, select, textarea {
 		color: #fff;
 	}
 
+	.lauren {
+		background-image: url("images/overlay.png"), url("../../images/lauren.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+		box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5);
+		color: #fff;
+	}
+
 
 	.dark .feature-icon:before, .dark .feature-icon:after {
 		background: rgba(255, 255, 255, 0.5);
