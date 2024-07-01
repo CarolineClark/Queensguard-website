@@ -2261,15 +2261,31 @@ input, select, textarea {
 	#header {
 		position: relative;
 		margin: 0;
-		background-image: url("images/overlay.png"), url("../../images/header.png");
+		background-image: url("../../images/header.png");
 		/* filter:brightness(80%); */
-		background-size: auto, cover;
-		background-position: center center;
-		background-repeat: repeat, no-repeat;
-		padding: 3em 0 3em 0;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		padding: 0 0 0 0;
 		text-align: center;
 		color: #fff;
 	}
+
+		#header .banner {
+			margin: 0;
+			background-image: url("../../images/banner.png");
+			background-size: clamp(10px, 100%, 1500px) auto;;
+			background-position: center;
+			background-repeat: no-repeat;
+			display: absolute;
+		}
+
+			#header .banner > .logo img {
+				margin: 6em;
+				width: 16vw;
+				display: absolute;
+				align-self: center;
+			}
 
 		#header header h1 {
 			font-size: 2.25em;
@@ -2297,6 +2313,7 @@ input, select, textarea {
 		#header footer {
 			padding-top: 1.5em;
 		}
+
 
 /* Main Sections */
 
@@ -2337,20 +2354,46 @@ input, select, textarea {
 			}
 
 			.main > .content.style1 {
-				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #b39c68, #a56365, #412e4c);
+				position: relative;
+				background: url("../../images/bg01.png");
+				margin: 0;
+				background-size: cover;
+				background-position: center;
+				background-repeat: no-repeat;
+				padding: 6em 0 6em 0;
+				text-align: center;
 			}
 
 			.main > .content.style2 {
-				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #384955, #655361, #85505f);
+				position: relative;
+				background: url("../../images/bg02.png");
+				margin: 0;
+				background-size: cover;
+				background-position: center;
+				background-repeat: no-repeat;
+				padding: 6em 0 6em 0;
+				text-align: center;
 			}
 
 			.main > .content.style3 {
-				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #5f796b, #3a4e59, #2f394e);
+				position: relative;
+				background: url("../../images/bg03.png");
+				margin: 0;
+				background-size: cover;
+				background-position: center;
+				background-repeat: no-repeat;
+				padding: 16em 0 16em 0;
+				text-align: center;
 			}
 
 			.main > .content.style4 {
-				padding-top: 0;
-				background: #fff;
+				position: relative;
+				background: url("../../images/bg04.png");
+				margin: 0;
+				background-size: cover;
+				background-position: center;
+				background-repeat: no-repeat;
+				text-align: center;
 			}
 
 /* Footer */
@@ -2390,7 +2433,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				padding: 12em 0 12em 0;
+				padding: 0 6em 24em 6em;
 			}
 
 	}
@@ -2415,13 +2458,13 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				padding: 12em 0 12em 0;
+				padding: 0 6em 24em 6em;
 			}
 
 		/* Main Sections */
 
 			.main > header {
-				padding: 4em 0 4em 0;
+				padding: 0 0em 12em 0em;
 			}
 
 			.main > .content {
@@ -2463,8 +2506,9 @@ input, select, textarea {
 
 			#header {
 				margin: 0 !important;
-				padding: 8em 2em 8em 2em;
+				padding: 0em 2em 8em 2em;
 			}
+
 
 				#header header p {
 					margin-top: 1em;
