@@ -1,5 +1,6 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,400,400italic");
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
 /*
 	Tessellate by HTML5 UP
@@ -133,10 +134,12 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #666;
+		font-family: 'Bellota Text', sans-serif;
+		color: #868686;
 		margin: 0 0 1em 0;
-		font-weight: 100;
+		font-weight: 300;
 		line-height: 1.5em;
+		text-shadow: 0px 2px 2px black;
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
