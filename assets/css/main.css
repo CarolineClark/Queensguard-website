@@ -271,6 +271,18 @@ input, select, textarea {
 			width: 1020px;
 		}
 
+		@media screen and (max-width: 3300px) {
+
+			.container {
+				width: 1200px;
+			}
+
+				.container.medium {
+					width: 900px;
+				}
+
+		}
+
 		@media screen and (max-width: 1680px) {
 
 			.container {
@@ -357,11 +369,11 @@ input, select, textarea {
 		}
 
 		.row > .col-2 {
-			width: 14.66667%;
+			width: 11%;
 		}
 
 		.row > .off-2 {
-			margin-left: 14.66667%;
+			margin-left: 11%;
 		}
 
 		.row > .col-3 {
@@ -2041,14 +2053,18 @@ input, select, textarea {
 		-webkit-appearance: none;
 		position: relative;
 		display: inline-block;
-		background: #3d3d3d;
+		background: linear-gradient(0deg, rgba(75,113,113,1) 0%, rgba(130,168,170,0.79) 100%);
 		padding: 0.85em 3em 0.85em 3em;
-		border-radius: 0.25em;
+		border-radius: 0em;
+		border: 5px, solid;
+		border-image-slice: 1;
+		border-width: 5px;
+		border-image-source: linear-gradient(90deg, rgba(117,68,27,1) 0%, rgba(255,249,184,1) 50%, rgba(117,68,27,1) 100%);
 		cursor: pointer;
-		border: 0;
 		color: #fff;
 		text-align: center;
 		text-decoration: none;
+		outline-offset: 40px;
 	}
 
 		input[type="button"]:hover,
@@ -2056,26 +2072,8 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background: #4f4f4f;
+			background: #fff4ac;
 		}
-
-		input[type="button"].alt,
-		input[type="submit"].alt,
-		input[type="reset"].alt,
-		button.alt,
-		.button.alt {
-			color: inherit;
-			box-shadow: inset 0 0 0 1px #e6e6e6;
-			background: none;
-		}
-
-			input[type="button"].alt:hover,
-			input[type="submit"].alt:hover,
-			input[type="reset"].alt:hover,
-			button.alt:hover,
-			.button.alt:hover {
-				background: rgba(0, 0, 0, 0.025);
-			}
 
 	.dark input[type="button"],
 	.dark input[type="submit"],
@@ -2271,34 +2269,55 @@ input, select, textarea {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
+/* Overlay */
+
+	#overlay {
+
+	}
+
+	/*.overlay01 {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background-image: url("../../images/overlay01.png");
+		background-size: cover;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		z-index: 2;
+	}*/
+
 /* Header */
 
 	#header {
-		position: relative;
+		position: static;
+		height: auto;
+		width: auto;
 		margin: 0;
-		background-image: url("../../images/header.png");
+		background-image: url("../../images/pillar-02.png"), url("../../images/pillar-02-flipped.png"), url("../../images/header-02.png");
 		/* filter:brightness(80%); */
-		background-size: cover;
-		background-position: center;
-		background-repeat: no-repeat;
-		padding: 0 0 0 0;
+		background-size: clamp(10em, 15%, 40em), clamp(10em, 15%, 40em), cover;
+		background-position: left top, right top, center;
+		background-repeat: no-repeat, no-repeat, no-repeat;
 		text-align: center;
-		color: #fff;
+		color: #003d7a;
 	}
 
 		#header .banner {
 			margin: 0;
 			background-image: url("../../images/banner.png");
-			background-size: clamp(10px, 100%, 1200px), auto;
+			background-size: clamp(10px, 80%, 960px) auto;
 			background-position: center;
 			background-repeat: no-repeat;
 			display: absolute;
+			transform: translateY(-70px);
 		}
 
 		#header .logo-banner img{
-			margin-top: 8.5em;
+			margin-top: 8.7em;
 			margin-bottom: 8em;
-			width: clamp(1em, 75%, 15em);
+			width: clamp(1em, 66%, 15em);
 			display: absolute;
 			align-self: center;
 		}
@@ -2324,6 +2343,10 @@ input, select, textarea {
 			font-size: 1.25em;
 			line-height: 1.5em;
 			text-align: center;
+		}
+
+		#header .available-on-buttons {
+			transform: translateY(-100px);
 		}
 
 		#header footer {
@@ -2436,6 +2459,22 @@ input, select, textarea {
 			box-shadow: inset 0 0 0 1px #d6d6d6;
 		}
 
+	@media screen and (min-width: 1680px) {
+
+		/* Basic */
+
+		body, input, textarea, select {
+			font-size: 15pt;
+		}
+		/* Header */
+
+		#header {
+			padding: 10px 6em 0em 6em;
+			background-size: clamp(10em, 15%, 40em), clamp(10em, 15%, 40em), cover;
+		}
+
+	}
+
 /* Wide */
 
 	@media screen and (max-width: 1680px) {
@@ -2444,12 +2483,11 @@ input, select, textarea {
 
 			body, input, textarea, select {
 				font-size: 15pt;
-				line-height: 1.75em;
 			}
 		/* Header */
 
 			#header {
-				padding: 0 6em 24em 6em;
+				padding: 10px 6em 0em 6em;
 			}
 
 	}
@@ -2461,8 +2499,7 @@ input, select, textarea {
 		/* Basic */
 
 			body, input, textarea, select {
-				font-size: 13pt;
-				line-height: 1.65em;
+				font-size: 12pt;
 			}
 
 		/* Feature Icon */
@@ -2474,13 +2511,13 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				padding: 0 6em 24em 6em;
+				padding: 10px 6em 0em 6em;
 			}
 
 		/* Main Sections */
 
 			.main > header {
-				padding: 0 0em 12em 0em;
+				padding: 0em 0em 0em 0em;
 			}
 
 			.main > .content {
@@ -2522,7 +2559,7 @@ input, select, textarea {
 
 			#header {
 				margin: 0 !important;
-				padding: 0em 2em 8em 2em;
+				padding: 10px 6em 0em 6em;
 			}
 
 
