@@ -2297,7 +2297,7 @@ input, select, textarea {
 		margin: 0;
 		background-image: url("../../images/pillar-02.png"), url("../../images/pillar-02-flipped.png"), url("../../images/header-02.png");
 		/* filter:brightness(80%); */
-		background-size: clamp(10em, 15%, 40em), clamp(10em, 15%, 40em), cover;
+		background-size: clamp(1em, 15%, 40em), clamp(10em, 15%, 40em), cover;
 		background-position: left top, right top, center;
 		background-repeat: no-repeat, no-repeat, no-repeat;
 		text-align: center;
@@ -2394,44 +2394,44 @@ input, select, textarea {
 
 			.main > .content.style1 {
 				position: relative;
-				background: url("../../images/bg01.png");
+				background: url("../../images/pillar.png"), url("../../images/pillar_flipped.png"), url("../../images/bg01.png");
 				margin: 0;
-				background-size: cover;
-				background-position: center;
-				background-repeat: no-repeat;
+				background-size: clamp(1em, 3.65%, 30em), clamp(1em, 3.65%, 30em), cover;
+				background-position: left top, right top, center;
+				background-repeat: repeat-y, repeat-y, no-repeat;
 				padding: 6em 0 6em 0;
 				text-align: center;
 			}
 
 			.main > .content.style2 {
 				position: relative;
-				background: url("../../images/bg02.png");
+				background: url("../../images/pillar.png"), url("../../images/pillar_flipped.png"), url("../../images/bg02.png");
 				margin: 0;
-				background-size: cover;
-				background-position: center;
-				background-repeat: no-repeat;
+				background-size: clamp(1em, 3.65%, 30em), clamp(1em, 3.65%, 30em), cover;
+				background-position: left top, right top, center;
+				background-repeat: repeat-y, repeat-y, no-repeat;
 				padding: 6em 0 6em 0;
 				text-align: center;
 			}
 
 			.main > .content.style3 {
 				position: relative;
-				background: url("../../images/bg03.png");
+				background: url("../../images/pillar.png"), url("../../images/pillar_flipped.png"), url("../../images/bg03.png");
 				margin: 0;
-				background-size: cover;
-				background-position: center;
-				background-repeat: no-repeat;
+				background-size: clamp(1em, 3.65%, 30em), clamp(1em, 3.65%, 30em), cover;
+				background-position: left top, right top, center;
+				background-repeat: repeat-y, repeat-y, no-repeat;
 				padding: 16em 0 16em 0;
 				text-align: center;
 			}
 
 			.main > .content.style4 {
 				position: relative;
-				background: url("../../images/bg04.png");
+				background: url("../../images/pillar.png"), url("../../images/pillar_flipped.png"), url("../../images/bg04.png");
 				margin: 0;
-				background-size: cover;
-				background-position: center;
-				background-repeat: no-repeat;
+				background-size: clamp(1em, 3.65%, 30em), clamp(1em, 3.65%, 30em), cover;
+				background-position: left top, right top, center;
+				background-repeat: repeat-y, repeat-y, no-repeat;
 				text-align: center;
 			}
 
