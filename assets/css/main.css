@@ -133,13 +133,33 @@ input, select, textarea {
 		-webkit-text-stroke: 0.1px;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1 {
 		font-family: 'Bellota Text', sans-serif;
 		color: #868686;
 		margin: 0 0 1em 0;
 		font-weight: 300;
 		line-height: 1.5em;
-		text-shadow: 0px 2px 2px black;
+		text-shadow: 0px 3px 2px rgb(51, 0, 20);
+	}
+	
+	h2 {
+		font-family: 'Arial', sans-serif;
+		color: #ffffff;
+		margin: 0 0 0 0;
+		font-weight: 300;
+		line-height: 1.25em;
+		font-size: 1.25em;
+		text-shadow: 0px 2px 2px rgba(51, 0, 20, 0.63);
+	}
+
+	h3, h4, h5, h6 {
+		font-family: 'Arial', sans-serif;
+		color: #646464;
+		margin: 0 0 0 0;
+		font-weight: 300;
+		line-height: 1.25em;
+		font-size: 0.8em;
+		text-shadow: 0px 2px 1px rgba(51, 0, 20, 0.164);
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -2025,6 +2045,12 @@ input, select, textarea {
 			table.default th {
 				text-align: center;
 				padding: 0.5em 1em 1em 1em;
+				font-family: 'Bellota Text', sans-serif;
+				color: #868686;
+				margin: 0 0 1em 0;
+				font-weight: 300;
+				line-height: 1.5em;
+				text-shadow: 0px 3px 2px rgb(51, 0, 20);
 			}
 
 			table.default tfoot td {
@@ -2054,12 +2080,12 @@ input, select, textarea {
 		position: relative;
 		display: inline-block;
 		background: linear-gradient(0deg, rgba(75,113,113,1) 0%, rgba(130,168,170,0.79) 100%);
-		padding: 0.80em 3em 0.80em 3em;
+		padding: 0.80em 2em 0.80em 2em;
 		border-radius: 0em;
 		border: 5px, solid;
 		border-image-slice: 1;
 		border-width: 5px;
-		border-image-source: linear-gradient(90deg, rgba(117,68,27,1) 0%, rgba(255,249,184,1) 50%, rgba(117,68,27,1) 100%);
+		border-image-source: linear-gradient(90deg, rgba(117,68,27,1) 0%, rgb(255, 240, 153) 50%, rgba(117,68,27,1) 100%);
 		box-shadow: 
 			0 1px 0 1px #5c070b81,
 			inset 0 1px 0 1px #5c070b81;
@@ -2076,7 +2102,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background: #413c1f;
+			background: rgba(36, 66, 66, 0.849);
 		}
 
 		.available-on-buttons {
@@ -2342,7 +2368,7 @@ input, select, textarea {
 		}
 
 		#header header h1 {
-			font-size: 2.25em;
+			font-size: 1.5em;
 			line-height: 1.25em;
 			margin-bottom: 0;
 		}
@@ -2365,7 +2391,7 @@ input, select, textarea {
 		}
 
 		#header .available-on-buttons {
-			transform: translateY(-100px);
+			transform: translateY(-87px);
 		}
 
 		#header footer {
