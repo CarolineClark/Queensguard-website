@@ -2023,7 +2023,7 @@ input, select, textarea {
 			}
 
 			table.default th {
-				text-align: left;
+				text-align: center;
 				padding: 0.5em 1em 1em 1em;
 			}
 
@@ -2054,17 +2054,21 @@ input, select, textarea {
 		position: relative;
 		display: inline-block;
 		background: linear-gradient(0deg, rgba(75,113,113,1) 0%, rgba(130,168,170,0.79) 100%);
-		padding: 0.85em 3em 0.85em 3em;
+		padding: 0.80em 3em 0.80em 3em;
 		border-radius: 0em;
 		border: 5px, solid;
 		border-image-slice: 1;
 		border-width: 5px;
 		border-image-source: linear-gradient(90deg, rgba(117,68,27,1) 0%, rgba(255,249,184,1) 50%, rgba(117,68,27,1) 100%);
+		box-shadow: 
+			0 1px 0 1px #5c070b81,
+			inset 0 1px 0 1px #5c070b81;
 		cursor: pointer;
 		color: #fff;
 		text-align: center;
 		text-decoration: none;
-		outline-offset: 40px;
+		outline-offset: 0px;
+		margin: 10px;
 	}
 
 		input[type="button"]:hover,
@@ -2072,7 +2076,22 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background: #fff4ac;
+			background: #413c1f;
+		}
+
+		.available-on-buttons {
+			width: 100%;
+			table-layout: fixed;
+			border-collapse: collapse;
+		}
+
+			.available-on-buttons button {
+				width: 14%;
+			}
+		
+		.mailing-list-button button {
+			margin: 70px;
+			width: auto;
 		}
 
 	.dark input[type="button"],
