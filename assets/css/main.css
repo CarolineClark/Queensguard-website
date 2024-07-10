@@ -326,6 +326,19 @@ input, select, textarea {
 				width: 50%;
 			}
 
+		.viola-section > .container {
+			margin-right: auto;
+			margin-left: 0;
+		}
+
+			.viola-section > .container.medium {
+				width: 27%;
+			}
+
+			.viola-section > .container.large {
+				width: 33%;
+			}
+
 		@media screen and (max-width: 3300px) {
 
 			.container {
@@ -2502,8 +2515,8 @@ input, select, textarea {
 				background-size: clamp(1em, 3.65%, 30em), clamp(1em, 3.65%, 30em), cover;
 				background-position: left top, right top, center;
 				background-repeat: repeat-y, repeat-y, no-repeat;
-				padding: 16em 0 16em 0;
-				text-align: center;
+				padding: 6em 0 6em 0;
+				text-align: left;
 			}
 
 			.main > .content.style4 {
