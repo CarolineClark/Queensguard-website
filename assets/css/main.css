@@ -259,7 +259,7 @@ input, select, textarea {
 		text-align: justify;
 	}
 
-		.glas-section > p {
+		.glas-section > .container > p {
 				text-align: right;
 		}
 
@@ -309,10 +309,22 @@ input, select, textarea {
 			width: 1020px;
 		}
 
-		.container.glas-section {
-			width: 20%;
-			transform: translateX(500px);
+		.glas-section > .container {
+			margin-left: auto; 
+			margin-right: 0;
 		}
+
+			.glas-section > .container.small {
+				width: 23%;
+			}
+
+			.glas-section > .container.medium {
+				width: 35%;
+			}
+
+			.glas-section > .container.large {
+				width: 50%;
+			}
 
 		@media screen and (max-width: 3300px) {
 
@@ -2479,7 +2491,7 @@ input, select, textarea {
 				background-size: clamp(1em, 3.65%, 30em), clamp(1em, 3.65%, 30em), cover;
 				background-position: left top, right top, center;
 				background-repeat: repeat-y, repeat-y, no-repeat;
-				padding: 6em 0 6em 0;
+				padding: 2em 0em 6em 0em;
 				text-align: right;
 			}
 
