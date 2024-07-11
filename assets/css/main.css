@@ -318,6 +318,10 @@ input, select, textarea {
 			width: 1020px;
 		}
 
+		.container.team {
+			width: 40%;
+		}
+
 		.glas-section > .container {
 			margin-left: auto; 
 			margin-right: 0;
@@ -1641,6 +1645,10 @@ input, select, textarea {
 		margin-bottom: 0;
 	}
 
+	section.person {
+		display: flex;
+	}
+
 	.row > section,
 	.row > article {
 		margin-bottom: 0;
@@ -2219,8 +2227,6 @@ input, select, textarea {
 	.feature-icon {
 		display: inline-block;
 		position: relative;
-		padding-bottom: 5em;
-		margin-bottom: 2.75em;
 		cursor: default;
 	}
 
@@ -2233,30 +2239,6 @@ input, select, textarea {
 			box-shadow: inset 0 0 0 1px #666;
 			color: #666;
 			line-height: 2em;
-		}
-
-		.feature-icon:before {
-			content: '';
-			background: #666;
-			position: absolute;
-			bottom: 0;
-			left: 50%;
-			margin-left: -0.325em;
-			width: 0.65em;
-			height: 0.65em;
-			display: block;
-			border-radius: 100%;
-		}
-
-		.feature-icon:after {
-			content: '';
-			position: absolute;
-			left: 50%;
-			bottom: 0.65em;
-			width: 1px;
-			height: 4.35em;
-			background: #666;
-			margin-left: -0.5px;
 		}
 
 	.arka {
@@ -2371,25 +2353,6 @@ input, select, textarea {
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
 		}
-
-/* Overlay */
-
-	#overlay {
-
-	}
-
-	/*.overlay01 {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		background-image: url("../../images/overlay01.png");
-		background-size: cover;
-		top: 0;
-		right: 0;
-		bottom: 0;
-		left: 0;
-		z-index: 2;
-	}*/
 
 /* Header */
 
