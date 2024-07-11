@@ -222,6 +222,8 @@ input, select, textarea {
 		transition: 0.5s;
 		transition-property: border-color;
 		border-radius: 25%;
+		height: 40px;
+		width: 40px;
 	}
 
 		.social_icon:hover {
@@ -403,6 +405,7 @@ input, select, textarea {
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
+		flex-shrink: 0;
 	}
 
 		.row > * {
