@@ -1676,6 +1676,10 @@ input, select, textarea {
 		text-align: left;
 	}
 
+	section.queensguard {
+		padding-top: 30px;
+	}
+
 	.row > section,
 	.row > article {
 		margin-bottom: 0;
