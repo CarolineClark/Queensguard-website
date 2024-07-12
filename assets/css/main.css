@@ -2074,8 +2074,7 @@ input, select, textarea {
 	.dark form select,
 	.dark form .select,
 	.dark form textarea {
-		background: none;
-		box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5);
+		background: rgba(255, 255, 255, 0.336);
 		color: #fff;
 	}
 
@@ -2085,8 +2084,7 @@ input, select, textarea {
 		.dark form select:focus,
 		.dark form .select:focus,
 		.dark form textarea:focus {
-			background: rgba(255, 255, 255, 0.1);
-			box-shadow: inset 0 0 0 1px #fff;
+			background: rgba(49, 49, 49, 0.178);
 		}
 
 	.dark form .select:before {
@@ -2222,9 +2220,7 @@ input, select, textarea {
 	.dark input[type="reset"],
 	.dark button,
 	.dark .button {
-		background: rgba(255, 255, 255, 0.15);
-		box-shadow: inset 0 0 0 1px #fff;
-		color: #fff;
+
 	}
 
 		.dark input[type="button"]:hover,
@@ -2232,7 +2228,7 @@ input, select, textarea {
 		.dark input[type="reset"]:hover,
 		.dark button:hover,
 		.dark .button:hover {
-			background: rgba(255, 255, 255, 0.25);
+			
 		}
 
 		.dark input[type="button"].alt,
