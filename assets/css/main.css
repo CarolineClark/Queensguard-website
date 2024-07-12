@@ -2532,11 +2532,11 @@ input, select, textarea {
 
 	#footer {
 		position: relative;
-		background: url("../../images/pillar.png"), url("../../images/pillar_flipped.png");
+		background: url("../../images/pillar.png"), url("../../images/pillar_flipped.png"), url("../../images/footer-bg.png");
 		margin: 0;
-		background-size: clamp(1em, 3.65%, 30em), clamp(1em, 3.65%, 30em);
-		background-position: left top, right top;
-		background-repeat: repeat-y, repeat-y;
+		background-size: clamp(1em, 3.65%, 30em), clamp(1em, 3.65%, 30em), cover;
+		background-position: left top, right top, center;
+		background-repeat: repeat-y, repeat-y, repeat;
 		text-align: center;
 		padding: 4em 0 8em 0;
 	}
@@ -2544,7 +2544,7 @@ input, select, textarea {
 		#footer .copyright {
 			margin-top: 3em;
 			font-size: 0.8em;
-			color: #aaa;
+			color: #ffffff;
 		}
 
 			#footer .copyright a {
