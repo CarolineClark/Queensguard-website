@@ -2386,12 +2386,11 @@ input, select, textarea {
 		#divider {
 			position: absolute;
 			z-index: 10;
-			transform: translateY(-200px);
+			transform: translateY(-250px);
 		}
 
 		.divider {
-			height: 28em;
-			width: auto;
+			height: auto;
 		}
 
 /* Header */
@@ -2408,6 +2407,7 @@ input, select, textarea {
 		background-repeat:  no-repeat, no-repeat, repeat-y, repeat-y, no-repeat;
 		text-align: center;
 		color: #003d7a;
+		padding: 0 0 15em 0;
 	}
 
 		#header .banner {
@@ -2421,7 +2421,7 @@ input, select, textarea {
 		}
 
 		#header .logo-banner img{
-			margin-top: 8.7em;
+			margin-top: 8em;
 			margin-bottom: 8em;
 			width: clamp(1em, 66%, 15em);
 			display: absolute;
@@ -2539,7 +2539,7 @@ input, select, textarea {
 				background-position: left top, right top, center;
 				background-repeat: repeat-y, repeat-y, no-repeat;
 				text-align: center;
-				padding: 8em 0 11em 0;
+				padding: 8em 0 12em 0;
 			}
 
 /* Footer */
@@ -2584,7 +2584,7 @@ input, select, textarea {
 		/* Header */
 
 		#header {
-			padding: 10px 6em 0em 6em;
+			padding: 10px 6em 2em 6em;
 			background-size: clamp(10em, 15%, 40em), clamp(10em, 15%, 40em),  clamp(1em, 3.65%, 30em), clamp(1em, 3.65%, 30em), cover;
 		}
 
