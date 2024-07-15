@@ -2381,6 +2381,19 @@ input, select, textarea {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
+/* Divider */
+
+		#divider {
+			position: absolute;
+			z-index: 10;
+			transform: translateY(-200px);
+		}
+
+		.divider {
+			height: 28em;
+			width: auto;
+		}
+
 /* Header */
 
 	#header {
@@ -2390,9 +2403,9 @@ input, select, textarea {
 		margin: 0;
 		background-image: url("../../images/pillar-02.png"), url("../../images/pillar-02-flipped.png"), url("../../images/pillar.png"), url("../../images/pillar_flipped.png"), url("../../images/header-02.png");
 		/* filter:brightness(80%); */
-		background-size: clamp(1em, 15%, 40em), clamp(10em, 15%, 40em), clamp(1em, 3.65%, 30em), clamp(1em, 3.65%, 30em), cover;
-		background-position: left top, right top, left center, right center, center;
-		background-repeat: no-repeat, no-repeat, repeat-y, repeat-y, no-repeat;
+		background-size:clamp(1em, 15%, 40em), clamp(10em, 15%, 40em), clamp(1em, 3.65%, 30em), clamp(1em, 3.65%, 30em), cover;
+		background-position:  left top, right top, left center, right center, center;
+		background-repeat:  no-repeat, no-repeat, repeat-y, repeat-y, no-repeat;
 		text-align: center;
 		color: #003d7a;
 	}
