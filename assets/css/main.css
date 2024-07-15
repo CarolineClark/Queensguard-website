@@ -1677,7 +1677,7 @@ input, select, textarea {
 	}
 
 	section.queensguard {
-		padding-top: 30px;
+		padding-top: 10px;
 	}
 
 	.row > section,
@@ -2505,7 +2505,7 @@ input, select, textarea {
 				background-size: clamp(1em, 3.65%, 30em), clamp(1em, 3.65%, 30em), cover;
 				background-position: left top, right top, center;
 				background-repeat: repeat-y, repeat-y, no-repeat;
-				padding: 12em 0 12em 0;
+				padding: 12em 0 14em 0;
 				text-align: center;
 			}
 
@@ -2516,7 +2516,7 @@ input, select, textarea {
 				background-size: clamp(1em, 3.65%, 30em), clamp(1em, 3.65%, 30em), cover;
 				background-position: left top, right top, center;
 				background-repeat: repeat-y, repeat-y, no-repeat;
-				padding: 6em 0em 16em 0em;
+				padding: 12em 0em 16em 0em;
 				text-align: right;
 			}
 
