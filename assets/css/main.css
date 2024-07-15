@@ -2505,7 +2505,7 @@ input, select, textarea {
 				background-size: clamp(1em, 3.65%, 30em), clamp(1em, 3.65%, 30em), cover;
 				background-position: left top, right top, center;
 				background-repeat: repeat-y, repeat-y, no-repeat;
-				padding: 6em 0 6em 0;
+				padding: 12em 0 12em 0;
 				text-align: center;
 			}
 
@@ -2516,7 +2516,7 @@ input, select, textarea {
 				background-size: clamp(1em, 3.65%, 30em), clamp(1em, 3.65%, 30em), cover;
 				background-position: left top, right top, center;
 				background-repeat: repeat-y, repeat-y, no-repeat;
-				padding: 2em 0em 6em 0em;
+				padding: 6em 0em 16em 0em;
 				text-align: right;
 			}
 
@@ -2527,7 +2527,7 @@ input, select, textarea {
 				background-size: clamp(1em, 3.65%, 30em), clamp(1em, 3.65%, 30em), cover;
 				background-position: left top, right top, center;
 				background-repeat: repeat-y, repeat-y, no-repeat;
-				padding: 6em 0 6em 0;
+				padding: 12em 0 16em 0;
 				text-align: left;
 			}
 
