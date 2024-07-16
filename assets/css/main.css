@@ -2386,7 +2386,7 @@ input, select, textarea {
 		#divider {
 			position: absolute;
 			z-index: 10;
-			transform: translateY(-250px);
+			transform: translateY(-270px);
 		}
 
 		.divider {
@@ -2539,7 +2539,7 @@ input, select, textarea {
 				background-position: left top, right top, center;
 				background-repeat: repeat-y, repeat-y, no-repeat;
 				text-align: center;
-				padding: 8em 0 12em 0;
+				padding: 8em 0 18em 0;
 			}
 
 /* Footer */
@@ -2588,6 +2588,17 @@ input, select, textarea {
 			background-size: clamp(10em, 15%, 40em), clamp(10em, 15%, 40em),  clamp(1em, 3.65%, 30em), clamp(1em, 3.65%, 30em), cover;
 		}
 
+		#divider {
+			position: absolute;
+			z-index: 10;
+			transform: translateY(-270px);
+			height: auto;
+		}
+
+		.divider {
+			height: auto;
+		}
+
 	}
 
 /* Wide */
@@ -2608,6 +2619,16 @@ input, select, textarea {
 
 			#header {
 				padding: 10px 6em 0em 6em;
+			}
+
+			#divider {
+				position: absolute;
+				z-index: 10;
+				transform: translateY(-230px);
+			}
+	
+			.divider {
+				height: 488px;
 			}
 
 	}
