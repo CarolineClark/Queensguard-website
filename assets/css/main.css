@@ -10,7 +10,8 @@
 
 .video {
 	aspect-ratio: 16 / 9;
-	width: 100%;
+	width: 80%;
+	margin-top: 13em;
 }
 
 .steam-widget {
@@ -474,6 +475,10 @@ input, select, textarea {
 
 		.row > .off-2 {
 			margin-left: 11%;
+		}
+
+		.row > .col-2A {
+			width: 20%;
 		}
 
 		.row > .col-3 {
@@ -2505,7 +2510,7 @@ input, select, textarea {
 				background-size: clamp(1em, 3.65%, 30em), clamp(1em, 3.65%, 30em), cover;
 				background-position: left top, right top, center;
 				background-repeat: repeat-y, repeat-y, no-repeat;
-				padding: 12em 0 14em 0;
+				padding: 10em 0 16em 0;
 				text-align: center;
 			}
 
