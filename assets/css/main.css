@@ -11,7 +11,6 @@
 .video {
 	aspect-ratio: 16 / 9;
 	width: 80%;
-	margin-top: 13em;
 }
 
 .steam-widget {
@@ -1698,6 +1697,10 @@ input, select, textarea {
 		border: 0;
 	}
 
+		.image.thumbnail {
+			margin-bottom: 20px;
+		}
+
 		.image:after {
 			content: '';
 			position: absolute;
@@ -2510,7 +2513,7 @@ input, select, textarea {
 				background-size: clamp(1em, 3.65%, 30em), clamp(1em, 3.65%, 30em), cover;
 				background-position: left top, right top, center;
 				background-repeat: repeat-y, repeat-y, no-repeat;
-				padding: 10em 0 16em 0;
+				padding: 15em 0 8em 0;
 				text-align: center;
 			}
 
@@ -2583,7 +2586,7 @@ input, select, textarea {
 		}
 
 		.about-section {
-			transform: translateY(90px);
+			
 		}
 
 		/* Header */
@@ -2617,7 +2620,7 @@ input, select, textarea {
 			}
 
 			.about-section {
-				transform: translateY(90px);
+				
 			}
 
 		/* Header */
@@ -2649,7 +2652,7 @@ input, select, textarea {
 			}
 
 			.about-section {
-				transform: translateY(50px);
+				
 			}
 
 		/* Feature Icon */
