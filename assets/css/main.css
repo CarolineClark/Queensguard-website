@@ -2429,7 +2429,7 @@ input, select, textarea {
 
 		#header .logo-banner img{
 			margin-top: 8em;
-			margin-bottom: 8em;
+			margin-bottom: 7em;
 			width: clamp(1em, 66%, 15em);
 			display: absolute;
 			align-self: center;
