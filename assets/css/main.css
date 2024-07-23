@@ -35,7 +35,12 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+}
+
+body {
+	overflow-x: hidden;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -2394,7 +2399,6 @@ input, select, textarea {
 			position: absolute;
 			z-index: 10;
 			transform: translateY(-270px);
-			overflow: hidden;
 		}
 
 		.divider {
@@ -2604,6 +2608,7 @@ input, select, textarea {
 
 		.divider {
 			height: 610px;
+			overflow-x: hidden;
 		}
 
 	}
