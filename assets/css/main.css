@@ -2394,6 +2394,7 @@ input, select, textarea {
 			position: absolute;
 			z-index: 10;
 			transform: translateY(-270px);
+			overflow: hidden;
 		}
 
 		.divider {
@@ -2599,11 +2600,10 @@ input, select, textarea {
 			position: absolute;
 			z-index: 10;
 			transform: translateY(-270px);
-			height: auto;
 		}
 
 		.divider {
-			height: auto;
+			height: 610px;
 		}
 
 	}
