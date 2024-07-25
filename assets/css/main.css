@@ -2600,6 +2600,11 @@ input, select, textarea {
 			background-size: clamp(10em, 15%, 40em), clamp(10em, 15%, 40em),  clamp(1em, 3.65%, 30em), clamp(1em, 3.65%, 30em), cover;
 		}
 
+		#header .banner {
+			background-image: url("../../images/banner.png");
+			background-size: clamp(10px, 80%, 960px) auto;
+		}
+
 		#divider {
 			position: absolute;
 			z-index: 10;
@@ -2631,6 +2636,11 @@ input, select, textarea {
 
 			#header {
 				padding: 10px 6em 0em 6em;
+			}
+
+			#header .banner {
+				background-image: url("../../images/banner.png");
+				background-size: clamp(10px, 80%, 960px) auto;
 			}
 
 			#divider {
@@ -2669,6 +2679,11 @@ input, select, textarea {
 
 			#header {
 				padding: 10px 6em 0em 6em;
+			}
+
+			#header .banner {
+				background-image: url("../../images/banner.png");
+				background-size: clamp(10px, 80%, 960px) auto;
 			}
 
 		/* Main Sections */
@@ -2726,6 +2741,12 @@ input, select, textarea {
 
 				#header footer {
 					padding-top: 1.25em;
+				}
+
+				#header .banner {
+					background-image:none;
+					background: linear-gradient(180deg, rgba(75,113,113,1) 0%, rgba(130,168,170,0.79) 100%);
+					background-size: 1000px auto;
 				}
 
 		/* Main Sections */
@@ -2823,6 +2844,12 @@ input, select, textarea {
 
 				#header > header {
 					padding: 0 1em 0 1em;
+				}
+
+				.banner {
+					background-image:none;
+					background: linear-gradient(180deg, rgba(75,113,113,1) 0%, rgba(130,168,170,0.79) 100%);
+					background-size: 1000px auto;
 				}
 
 		/* Main Sections */
