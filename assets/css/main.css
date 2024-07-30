@@ -2441,11 +2441,11 @@ input, select, textarea {
 		}
 
 		#header.mobile {
-			height: 70em;
-			background-image: url("../../images/pillar-02.png"), url("../../images/pillar-02-flipped.png"), url("../../images/pillar.png"), url("../../images/pillar_flipped.png"), linear-gradient(0deg, rgba(75,113,113,0.8) 0%, rgba(130,168,170,0.8) 100%), url("../../images/header-mobile-bg.png");
+			height: 85em;
+			background-image: url("../../images/pillar-02.png"), url("../../images/pillar-02-flipped.png"), url("../../images/pillar.png"), url("../../images/pillar_flipped.png"), linear-gradient(0deg, rgba(75,113,113,0.8) 0%, rgba(130,168,170,0.8) 100%), url("../../images/header-mobile-bg-02.png");
 			/* filter:brightness(80%); */
-			background-size:clamp(1em, 35%, 40em), clamp(10em, 35%, 40em), clamp(1em, 8.5%, 30em), clamp(1em, 8.5%, 30em), auto 15em, cover;
-			background-position:  left top, right top, left center, right center, top center, center center;
+			background-size:clamp(1em, 35%, 40em), clamp(10em, 35%, 40em), clamp(1em, 8.5%, 30em), clamp(1em, 8.5%, 30em), auto 15em, auto 1000px;
+			background-position:  left top, right top, left center, right center, top center, center top;
 			background-repeat:  no-repeat, no-repeat, repeat-y, repeat-y, no-repeat, no-repeat;
 		}
 
