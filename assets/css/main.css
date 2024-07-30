@@ -2440,6 +2440,29 @@ input, select, textarea {
 			align-self: center;
 		}
 
+		#header.mobile {
+			height: 100em;
+			background-image: url("../../images/pillar-02.png"), url("../../images/pillar-02-flipped.png"), url("../../images/pillar.png"), url("../../images/pillar_flipped.png"), linear-gradient(0deg, rgba(75,113,113,0.8) 0%, rgba(130,168,170,0.8) 100%), url("../../images/header-02.png");
+			/* filter:brightness(80%); */
+			background-size:clamp(1em, 15%, 40em), clamp(10em, 15%, 40em), clamp(1em, 3.65%, 30em), clamp(1em, 3.65%, 30em), auto 15em, 2000px auto;
+			background-position:  left top, right top, left center, right center, top center, left center;
+			background-repeat:  no-repeat, no-repeat, repeat-y, repeat-y, no-repeat, no-repeat;
+		}
+
+		.logo-mobile {
+			height: 8em;
+			margin: 10px;
+			margin-bottom: 30px;
+		}
+
+		h1.mobile-header {
+			font-size: 2em;
+			margin: 0 0 1em 0;
+			font-weight: 300;
+			line-height: 1.5em;
+			text-shadow: 0px 3px 2px rgb(51, 0, 20);
+		}
+
 		#header header h1 {
 			font-size: 1.5em;
 			line-height: 1.25em;
@@ -2581,7 +2604,7 @@ input, select, textarea {
 			box-shadow: inset 0 0 0 1px #d6d6d6;
 		}
 
-	@media screen and (min-width: 1680px) {
+@media screen and (min-width: 1680px) {
 
 		/* Basic */
 
@@ -2600,9 +2623,12 @@ input, select, textarea {
 			background-size: clamp(10em, 15%, 40em), clamp(10em, 15%, 40em),  clamp(1em, 3.65%, 30em), clamp(1em, 3.65%, 30em), cover;
 		}
 
-		#header .banner {
-			background-image: url("../../images/banner.png");
-			background-size: clamp(10px, 80%, 960px) auto;
+		.desktop {
+			display: block;
+		}
+
+		.mobile {
+			display: none;
 		}
 
 		#divider {
@@ -2638,9 +2664,12 @@ input, select, textarea {
 				padding: 10px 6em 0em 6em;
 			}
 
-			#header .banner {
-				background-image: url("../../images/banner.png");
-				background-size: clamp(10px, 80%, 960px) auto;
+			.desktop {
+				display: block;
+			}
+
+			.mobile {
+				display: none;
 			}
 
 			#divider {
@@ -2681,9 +2710,12 @@ input, select, textarea {
 				padding: 10px 6em 0em 6em;
 			}
 
-			#header .banner {
-				background-image: url("../../images/banner.png");
-				background-size: clamp(10px, 80%, 960px) auto;
+			.desktop {
+				display: block;
+			}
+
+			.mobile {
+				display: none;
 			}
 
 		/* Main Sections */
@@ -2743,11 +2775,13 @@ input, select, textarea {
 					padding-top: 1.25em;
 				}
 
-				#header .banner {
-					background-image:none;
-					background: linear-gradient(180deg, rgba(75,113,113,1) 0%, rgba(130,168,170,0.79) 100%);
-					background-size: 1000px auto;
-				}
+			.desktop {
+				display: none;
+			}
+
+			.mobile {
+				display: block;
+			}
 
 		/* Main Sections */
 
@@ -2836,6 +2870,14 @@ input, select, textarea {
 				margin: 1em 0 1em 0;
 			}
 
+		.desktop {
+			display: none;
+		}
+
+		.mobile {
+			display: block;
+		}
+
 		/* Header */
 
 			#header {
@@ -2847,9 +2889,7 @@ input, select, textarea {
 				}
 
 				.banner {
-					background-image:none;
-					background: linear-gradient(180deg, rgba(75,113,113,1) 0%, rgba(130,168,170,0.79) 100%);
-					background-size: 1000px auto;
+					display: none;
 				}
 
 		/* Main Sections */
