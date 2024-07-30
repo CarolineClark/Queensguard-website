@@ -1476,7 +1476,7 @@ input, select, textarea {
 				}
 
 				.row > .col-3-mobile {
-					width: 25%;
+					width: 20%;
 				}
 
 				.row > .off-3-mobile {
@@ -2440,7 +2440,7 @@ input, select, textarea {
 			align-self: center;
 		}
 
-		#header.mobile {
+		#header.narrow {
 			height: 85em;
 			background-image: url("../../images/pillar-02.png"), url("../../images/pillar-02-flipped.png"), url("../../images/pillar.png"), url("../../images/pillar_flipped.png"), linear-gradient(0deg, rgba(75,113,113,0.8) 0%, rgba(130,168,170,0.8) 100%), url("../../images/header-mobile-bg-02.png");
 			/* filter:brightness(80%); */
@@ -2449,14 +2449,38 @@ input, select, textarea {
 			background-repeat:  no-repeat, no-repeat, repeat-y, repeat-y, no-repeat, no-repeat;
 		}
 
-		.logo-mobile {
+		.logo-narrow {
 			height: 8em;
 			margin: 10px;
 			margin-bottom: 30px;
 		}
 
-		h1.mobile-header {
+		h1.narrow-header {
 			font-size: 2em;
+			margin: 0 0 1em 0;
+			font-weight: 300;
+			line-height: 1.5em;
+			text-shadow: 0px 3px 2px rgb(51, 0, 20);
+		}
+
+		#header.mobile {
+			height: 60em;
+			padding-top: 10px;
+			background-image: url("../../images/pillar-02.png"), url("../../images/pillar-02-flipped.png"), url("../../images/pillar.png"), url("../../images/pillar_flipped.png"), linear-gradient(0deg, rgba(75,113,113,0.8) 0%, rgba(130,168,170,0.8) 100%), url("../../images/header-mobile-bg-02.png");
+			/* filter:brightness(80%); */
+			background-size:clamp(1em, 35%, 40em), clamp(10em, 35%, 40em), clamp(1em, 8.5%, 30em), clamp(1em, 8.5%, 30em), auto 10em, auto 900px;
+			background-position:  left top, right top, left center, right center, top center, center top;
+			background-repeat:  no-repeat, no-repeat, repeat-y, repeat-y, no-repeat, no-repeat;
+		}
+
+		.logo-mobile {
+			height: 6em;
+			margin: 0px;
+			margin-bottom: 2px;
+		}
+
+		h1.mobile-header {
+			font-size: 1.3em;
 			margin: 0 0 1em 0;
 			font-weight: 300;
 			line-height: 1.5em;
@@ -2631,6 +2655,10 @@ input, select, textarea {
 			display: block;
 		}
 
+		.narrow {
+			display: none;
+		}
+
 		.mobile {
 			display: none;
 		}
@@ -2670,6 +2698,10 @@ input, select, textarea {
 
 			.desktop {
 				display: block;
+			}
+
+			.narrow {
+				display: none;
 			}
 
 			.mobile {
@@ -2716,6 +2748,10 @@ input, select, textarea {
 
 			.desktop {
 				display: block;
+			}
+
+			.narrow {
+				display: none;
 			}
 
 			.mobile {
@@ -2782,9 +2818,13 @@ input, select, textarea {
 			.desktop {
 				display: none;
 			}
-
-			.mobile {
+	
+			.narrow {
 				display: block;
+			}
+	
+			.mobile {
+				display: none;
 			}
 
 		/* Main Sections */
@@ -2875,6 +2915,10 @@ input, select, textarea {
 			}
 
 		.desktop {
+			display: none;
+		}
+
+		.narrow {
 			display: none;
 		}
 
