@@ -2572,6 +2572,22 @@ input, select, textarea {
 				text-align: center;
 			}
 
+				.main.narrow > .content.style1 {
+					background: url("../../images/pillar.png"), url("../../images/pillar_flipped.png"), url("../../images/bg-01-A.png");
+					background-size: clamp(1em, 8.5%, 30em), clamp(1em, 8.5%, 30em), auto 1000px;
+					background-position: left top, right top, center;
+					background-repeat: repeat-y, repeat-y, no-repeat;
+					padding: 17em 0 15em 0;
+				}
+
+				.main.mobile > .content.style1 {
+					background: url("../../images/pillar.png"), url("../../images/pillar_flipped.png"), url("../../images/bg-01-A.png");
+					background-size: clamp(1em, 8.5%, 30em), clamp(1em, 8.5%, 30em), auto 900px;
+					background-position: left top, right top, center;
+					background-repeat: repeat-y, repeat-y, no-repeat;
+					padding: 10em 0 10em 0;
+				}
+
 			.main > .content.style2 {
 				position: relative;
 				background: url("../../images/pillar.png"), url("../../images/pillar_flipped.png"), url("../../images/bg02.png");
