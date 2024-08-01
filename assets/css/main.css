@@ -2441,7 +2441,7 @@ input, select, textarea {
 		}
 
 		#header.narrow {
-			height: 85em;
+			height: 70em;
 			background-image: url("../../images/pillar-02.png"), url("../../images/pillar-02-flipped.png"), url("../../images/pillar.png"), url("../../images/pillar_flipped.png"), linear-gradient(0deg, rgba(75,113,113,0.8) 0%, rgba(130,168,170,0.8) 100%), url("../../images/header-mobile-bg-02.png");
 			/* filter:brightness(80%); */
 			background-size:clamp(1em, 35%, 40em), clamp(10em, 35%, 40em), clamp(1em, 8.5%, 30em), clamp(1em, 8.5%, 30em), auto 15em, auto 1000px;
@@ -2574,10 +2574,10 @@ input, select, textarea {
 
 				.main.narrow > .content.style1 {
 					background: url("../../images/pillar.png"), url("../../images/pillar_flipped.png"), url("../../images/bg-01-A.png");
-					background-size: clamp(1em, 8.5%, 30em), clamp(1em, 8.5%, 30em), auto 1000px;
+					background-size: clamp(1em, 8.5%, 30em), clamp(1em, 8.5%, 30em), auto 950px;
 					background-position: left top, right top, center;
 					background-repeat: repeat-y, repeat-y, no-repeat;
-					padding: 17em 0 15em 0;
+					padding: 5em 0 3em 0;
 				}
 
 				.main.mobile > .content.style1 {
@@ -2794,6 +2794,10 @@ input, select, textarea {
 
 			header, footer, h2, h3, h4, h5, h6, header > p {
 				text-align: center;
+			}
+
+			body, input, textarea, select {
+				font-size: 10pt;
 			}
 
 		/* Sections/Article */
