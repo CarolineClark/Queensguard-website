@@ -2015,6 +2015,8 @@ input, select, textarea {
 		padding: 0.85em 1em 0.85em 1em;
 		border-radius: 0.25em;
 		border: 0;
+		margin-right: auto;
+		margin-left: auto;
 	}
 
 		form input[type="text"]:focus,
@@ -2697,11 +2699,33 @@ input, select, textarea {
 
 /* Footer */
 
-	#footer {
+	#footer.desktop {
 		position: relative;
 		background: url("../../images/pillar.png"), url("../../images/pillar_flipped.png"), url("../../images/footer-bg.png");
 		margin: 0;
 		background-size: clamp(1em, 3.65%, 30em), clamp(1em, 3.65%, 30em), cover;
+		background-position: left top, right top, center;
+		background-repeat: repeat-y, repeat-y, repeat;
+		text-align: center;
+		padding: 10em 0 8em 0;
+	}
+
+	#footer.narrow {
+		position: relative;
+		background: url("../../images/pillar.png"), url("../../images/pillar_flipped.png"), url("../../images/footer-bg.png");
+		margin: 0;
+		background-size: clamp(1em, 8.5%, 30em), clamp(1em, 8.5%, 30em), cover;
+		background-position: left top, right top, center;
+		background-repeat: repeat-y, repeat-y, repeat;
+		text-align: center;
+		padding: 10em 0 8em 0;
+	}
+
+	#footer.mobile {
+		position: relative;
+		background: url("../../images/pillar.png"), url("../../images/pillar_flipped.png"), url("../../images/footer-bg.png");
+		margin: 0;
+		background-size: clamp(1em, 8.5%, 30em), clamp(1em, 8.5%, 30em), cover;
 		background-position: left top, right top, center;
 		background-repeat: repeat-y, repeat-y, repeat;
 		text-align: center;
