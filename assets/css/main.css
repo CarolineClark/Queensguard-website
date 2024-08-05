@@ -2679,6 +2679,22 @@ input, select, textarea {
 				padding: 8em 0 18em 0;
 			}
 
+				.main.narrow > .content.style4 {
+					background: url("../../images/pillar.png"), url("../../images/pillar_flipped.png"), url("../../images/bg04.png");
+					margin: 0;
+					background-size: clamp(1em, 8.5%, 30em), clamp(1em, 8.5%, 30em), cover;
+					background-position: left top, right top, center;
+					background-repeat: repeat-y, repeat-y, no-repeat;
+				}
+
+				.main.mobile > .content.style4 {
+					background: url("../../images/pillar.png"), url("../../images/pillar_flipped.png"), url("../../images/bg04.png");
+					margin: 0;
+					background-size: clamp(1em, 8.5%, 30em), clamp(1em, 8.5%, 30em), cover;
+					background-position: left top, right top, center;
+					background-repeat: repeat-y, repeat-y, no-repeat;
+				}
+
 /* Footer */
 
 	#footer {
