@@ -299,6 +299,14 @@ input, select, textarea {
 			text-align: left;
 		}
 
+		.main.desktop > .viola-section > .container > p {
+			text-align: left;
+		}
+
+		.main.narrow > .viola-section > .container > p {
+			text-align: right;
+		}
+
 	header {
 		margin-bottom: 1em;
 	}
@@ -382,6 +390,11 @@ input, select, textarea {
 
 			.viola-section > .container.large {
 				width: 33%;
+			}
+
+			.main.narrow > .content.style3 > .viola-section > .container {
+				margin-right: 0;
+				margin-left: auto;
 			}
 
 		@media screen and (max-width: 3300px) {
@@ -2615,7 +2628,6 @@ input, select, textarea {
 					background-position: left top, right top, left bottom;
 					background-repeat: repeat-y, repeat-y, no-repeat;
 					padding: 15em 0em 5em 0em;
-					text-align: left;
 				}
 
 				.main.mobile > .content.style2 {
@@ -2625,7 +2637,6 @@ input, select, textarea {
 					background-position: left top, right top, left bottom;
 					background-repeat: repeat-y, repeat-y, no-repeat;
 					padding: 12em 0em 5em 0em;
-					text-align: left;
 				}
 
 			.main > .content.style3 {
@@ -2638,6 +2649,24 @@ input, select, textarea {
 				padding: 12em 0 16em 0;
 				text-align: left;
 			}
+
+				.main.narrow > .content.style3 {
+					height: 85em;
+					background: url("../../images/pillar.png"), url("../../images/pillar_flipped.png"), url("../../images/bg03-A.png");
+					background-size: clamp(1em, 8.5%, 30em), clamp(1em, 8.5%, 30em), auto 1500px;
+					background-position: left top, right top, right bottom;
+					background-repeat: repeat-y, repeat-y, no-repeat;
+					padding: 12em 0em 5em 0em;
+				}
+
+				.main.mobile > .content.style3 {
+					height: 77em;
+					background: url("../../images/pillar.png"), url("../../images/pillar_flipped.png"), url("../../images/bg03-A.png");
+					background-size: clamp(1em, 8.5%, 30em), clamp(1em, 8.5%, 30em), auto 1200px;
+					background-position: left top, right top, right bottom;
+					background-repeat: repeat-y, repeat-y, no-repeat;
+					padding: 15em 0em 5em 0em;
+				}
 
 			.main > .content.style4 {
 				position: relative;
