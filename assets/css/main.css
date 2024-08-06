@@ -2240,6 +2240,8 @@ input, select, textarea {
 			width: 100%;
 			table-layout: fixed;
 			border-collapse: collapse;
+			z-index: 100;
+			position: relative;
 		}
 
 			.available-on-buttons button {
