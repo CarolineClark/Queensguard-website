@@ -2307,7 +2307,7 @@ input, select, textarea {
 		}
 
 	.arka {
-		background-image: url("images/overlay.png"), url("../../images/arka.png");
+		background-image: url("images/overlay.png"), url("../../images/arka.webp");
 		background-size: contain;
 		background-repeat: no-repeat;
 		box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5);
@@ -2315,7 +2315,7 @@ input, select, textarea {
 	}
 
 	.caroline {
-		background-image: url("images/overlay.png"), url("../../images/caroline.png");
+		background-image: url("images/overlay.png"), url("../../images/caroline.webp");
 		background-size: contain;
 		background-repeat: no-repeat;
 		box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5);
@@ -2323,7 +2323,7 @@ input, select, textarea {
 	}
 
 	.charlotte {
-		background-image: url("images/overlay.png"), url("../../images/charlotte.jpeg");
+		background-image: url("images/overlay.png"), url("../../images/charlotte.webp");
 		background-size: contain;
 		background-repeat: no-repeat;
 		box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5);
@@ -2331,7 +2331,7 @@ input, select, textarea {
 	}
 
 	.elisabeth {
-		background-image: url("images/overlay.png"), url("../../images/elisabeth.jpg");
+		background-image: url("images/overlay.png"), url("../../images/elisabeth.webp");
 		background-size: contain;
 		background-repeat: no-repeat;
 		box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5);
@@ -2339,7 +2339,7 @@ input, select, textarea {
 	}
 
 	.nora {
-		background-image: url("images/overlay.png"), url("../../images/nora.jpg");
+		background-image: url("images/overlay.png"), url("../../images/nora.webp");
 		background-size: contain;
 		background-repeat: no-repeat;
 		box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5);
@@ -2347,7 +2347,7 @@ input, select, textarea {
 	}
 
 	.victoria {
-		background-image: url("images/overlay.png"), url("../../images/victoria.png");
+		background-image: url("images/overlay.png"), url("../../images/victoria.webp");
 		background-size: contain;
 		background-repeat: no-repeat;
 		box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5);
@@ -2355,7 +2355,7 @@ input, select, textarea {
 	}
 
 	.valerie {
-		background-image: url("images/overlay.png"), url("../../images/Valerie.jpg");
+		background-image: url("images/overlay.png"), url("../../images/Valerie.webp");
 		background-size: contain;
 		background-repeat: no-repeat;
 		box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5);
@@ -2363,7 +2363,7 @@ input, select, textarea {
 	}
 
 	.alex {
-		background-image: url("images/overlay.png"), url("../../images/alex.png");
+		background-image: url("images/overlay.png"), url("../../images/alex.webp");
 		background-size: contain;
 		background-repeat: no-repeat;
 		box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5);
@@ -2371,7 +2371,7 @@ input, select, textarea {
 	}
 
 	.lauren {
-		background-image: url("images/overlay.png"), url("../../images/lauren.png");
+		background-image: url("images/overlay.png"), url("../../images/lauren.webp");
 		background-size: contain;
 		background-repeat: no-repeat;
 		box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5);
@@ -2438,7 +2438,7 @@ input, select, textarea {
 		height: auto;
 		width: auto;
 		margin: 0;
-		background-image: url("../../images/pillar-02.png"), url("../../images/pillar-02-flipped.png"), url("../../images/pillar.png"), url("../../images/pillar_flipped.png"), url("../../images/header-02.png");
+		background-image: url("../../images/pillar-02.webp"), url("../../images/pillar-02-flipped.webp"), url("../../images/pillar.webp"), url("../../images/pillar_flipped.webp"), url("../../images/header-02.webp");
 		/* filter:brightness(80%); */
 		background-size:clamp(1em, 15%, 40em), clamp(10em, 15%, 40em), clamp(1em, 3.65%, 30em), clamp(1em, 3.65%, 30em), cover;
 		background-position:  left top, right top, left center, right center, center;
@@ -2450,7 +2450,7 @@ input, select, textarea {
 
 		#header .banner {
 			margin: 0;
-			background-image: url("../../images/banner.png");
+			background-image: url("../../images/banner-02.webp");
 			background-size: clamp(10px, 80%, 960px) auto;
 			background-position: center;
 			background-repeat: no-repeat;
@@ -2468,7 +2468,7 @@ input, select, textarea {
 
 		#header.narrow {
 			height: 70em;
-			background-image: url("../../images/pillar-02.png"), url("../../images/pillar-02-flipped.png"), url("../../images/pillar.png"), url("../../images/pillar_flipped.png"), linear-gradient(0deg, rgba(75,113,113,0.8) 0%, rgba(130,168,170,0.8) 100%), url("../../images/header-mobile-bg-02.png");
+			background-image: url("../../images/pillar-02.webp"), url("../../images/pillar-02-flipped.webp"), url("../../images/pillar.webp"), url("../../images/pillar_flipped.webp"), linear-gradient(0deg, rgba(75,113,113,0.8) 0%, rgba(130,168,170,0.8) 100%), url("../../images/header-mobile-bg-02.png");
 			/* filter:brightness(80%); */
 			background-size:clamp(1em, 35%, 40em), clamp(10em, 35%, 40em), clamp(1em, 8.5%, 30em), clamp(1em, 8.5%, 30em), auto 15em, auto 950px;
 			background-position:  left top, right top, left center, right center, top center, center top;
@@ -2492,7 +2492,7 @@ input, select, textarea {
 		#header.mobile {
 			height: 60em;
 			padding-top: 10px;
-			background-image: url("../../images/pillar-02.png"), url("../../images/pillar-02-flipped.png"), url("../../images/pillar.png"), url("../../images/pillar_flipped.png"), linear-gradient(0deg, rgba(75,113,113,0.8) 0%, rgba(130,168,170,0.8) 100%), url("../../images/header-mobile-bg-02.png");
+			background-image: url("../../images/pillar-02.webp"), url("../../images/pillar-02-flipped.webp"), url("../../images/pillar.webp"), url("../../images/pillar_flipped.webp"), linear-gradient(0deg, rgba(75,113,113,0.8) 0%, rgba(130,168,170,0.8) 100%), url("../../images/header-mobile-bg-02.png");
 			/* filter:brightness(80%); */
 			background-size:clamp(1em, 35%, 40em), clamp(10em, 35%, 40em), clamp(1em, 8.5%, 30em), clamp(1em, 8.5%, 30em), auto 10em, auto 900px;
 			background-position:  left top, right top, left center, right center, top center, center top;
@@ -2589,7 +2589,7 @@ input, select, textarea {
 
 			.main > .content.style1 {
 				position: relative;
-				background: url("../../images/pillar.png"), url("../../images/pillar_flipped.png"), url("../../images/bg01.png");
+				background: url("../../images/pillar.webp"), url("../../images/pillar_flipped.webp"), url("../../images/bg01.webp");
 				margin: 0;
 				background-size: clamp(1em, 3.65%, 30em), clamp(1em, 3.65%, 30em), cover;
 				background-position: left top, right top, center;
@@ -2599,7 +2599,7 @@ input, select, textarea {
 			}
 
 				.main.narrow > .content.style1 {
-					background: url("../../images/pillar.png"), url("../../images/pillar_flipped.png"), url("../../images/bg-01-A.png");
+					background: url("../../images/pillar.webp"), url("../../images/pillar_flipped.webp"), url("../../images/bg-01-A.webp");
 					background-size: clamp(1em, 8.5%, 30em), clamp(1em, 8.5%, 30em), auto 950px;
 					background-position: left top, right top, center;
 					background-repeat: repeat-y, repeat-y, no-repeat;
@@ -2607,7 +2607,7 @@ input, select, textarea {
 				}
 
 				.main.mobile > .content.style1 {
-					background: url("../../images/pillar.png"), url("../../images/pillar_flipped.png"), url("../../images/bg-01-A.png");
+					background: url("../../images/pillar.webp"), url("../../images/pillar_flipped.webp"), url("../../images/bg-01-A.webp");
 					background-size: clamp(1em, 8.5%, 30em), clamp(1em, 8.5%, 30em), auto 950px;
 					background-position: left top, right top, center;
 					background-repeat: repeat-y, repeat-y, no-repeat;
@@ -2616,7 +2616,7 @@ input, select, textarea {
 
 			.main > .content.style2 {
 				position: relative;
-				background: url("../../images/pillar.png"), url("../../images/pillar_flipped.png"), url("../../images/bg02.png");
+				background: url("../../images/pillar.webp"), url("../../images/pillar_flipped.webp"), url("../../images/bg02.webp");
 				margin: 0;
 				background-size: clamp(1em, 3.65%, 30em), clamp(1em, 3.65%, 30em), cover;
 				background-position: left top, right top, center;
@@ -2627,7 +2627,7 @@ input, select, textarea {
 
 				.main.narrow > .content.style2 {
 					height: 85em;
-					background: url("../../images/pillar.png"), url("../../images/pillar_flipped.png"), url("../../images/bg02-A.png");
+					background: url("../../images/pillar.webp"), url("../../images/pillar_flipped.webp"), url("../../images/bg02-A.webp");
 					background-size: clamp(1em, 8.5%, 30em), clamp(1em, 8.5%, 30em), auto 1500px;
 					background-position: left top, right top, left bottom;
 					background-repeat: repeat-y, repeat-y, no-repeat;
@@ -2636,7 +2636,7 @@ input, select, textarea {
 
 				.main.mobile > .content.style2 {
 					height: 77em;
-					background: url("../../images/pillar.png"), url("../../images/pillar_flipped.png"), url("../../images/bg02-A.png");
+					background: url("../../images/pillar.webp"), url("../../images/pillar_flipped.webp"), url("../../images/bg02-A.webp");
 					background-size: clamp(1em, 8.5%, 30em), clamp(1em, 8.5%, 30em), auto 1200px;
 					background-position: left top, right top, left bottom;
 					background-repeat: repeat-y, repeat-y, no-repeat;
@@ -2645,7 +2645,7 @@ input, select, textarea {
 
 			.main > .content.style3 {
 				position: relative;
-				background: url("../../images/pillar.png"), url("../../images/pillar_flipped.png"), url("../../images/bg03.png");
+				background: url("../../images/pillar.webp"), url("../../images/pillar_flipped.webp"), url("../../images/bg03.webp");
 				margin: 0;
 				background-size: clamp(1em, 3.65%, 30em), clamp(1em, 3.65%, 30em), cover;
 				background-position: left top, right top, center;
@@ -2656,7 +2656,7 @@ input, select, textarea {
 
 				.main.narrow > .content.style3 {
 					height: 85em;
-					background: url("../../images/pillar.png"), url("../../images/pillar_flipped.png"), url("../../images/bg03-A.png");
+					background: url("../../images/pillar.webp"), url("../../images/pillar_flipped.webp"), url("../../images/bg03-A.webp");
 					background-size: clamp(1em, 8.5%, 30em), clamp(1em, 8.5%, 30em), auto 1500px;
 					background-position: left top, right top, right bottom;
 					background-repeat: repeat-y, repeat-y, no-repeat;
@@ -2665,7 +2665,7 @@ input, select, textarea {
 
 				.main.mobile > .content.style3 {
 					height: 77em;
-					background: url("../../images/pillar.png"), url("../../images/pillar_flipped.png"), url("../../images/bg03-A.png");
+					background: url("../../images/pillar.webp"), url("../../images/pillar_flipped.webp"), url("../../images/bg03-A.webp");
 					background-size: clamp(1em, 8.5%, 30em), clamp(1em, 8.5%, 30em), auto 1200px;
 					background-position: left top, right top, right bottom;
 					background-repeat: repeat-y, repeat-y, no-repeat;
@@ -2674,7 +2674,7 @@ input, select, textarea {
 
 			.main > .content.style4 {
 				position: relative;
-				background: url("../../images/pillar.png"), url("../../images/pillar_flipped.png"), url("../../images/bg04.png");
+				background: url("../../images/pillar.webp"), url("../../images/pillar_flipped.webp"), url("../../images/bg04.webp");
 				margin: 0;
 				background-size: clamp(1em, 3.65%, 30em), clamp(1em, 3.65%, 30em), cover;
 				background-position: left top, right top, center;
@@ -2684,7 +2684,7 @@ input, select, textarea {
 			}
 
 				.main.narrow > .content.style4 {
-					background: url("../../images/pillar.png"), url("../../images/pillar_flipped.png"), url("../../images/bg04.png");
+					background: url("../../images/pillar.webp"), url("../../images/pillar_flipped.webp"), url("../../images/bg04.webp");
 					margin: 0;
 					background-size: clamp(1em, 8.5%, 30em), clamp(1em, 8.5%, 30em), cover;
 					background-position: left top, right top, center;
@@ -2692,7 +2692,7 @@ input, select, textarea {
 				}
 
 				.main.mobile > .content.style4 {
-					background: url("../../images/pillar.png"), url("../../images/pillar_flipped.png"), url("../../images/bg04.png");
+					background: url("../../images/pillar.webp"), url("../../images/pillar_flipped.webp"), url("../../images/bg04.webp");
 					margin: 0;
 					background-size: clamp(1em, 8.5%, 30em), clamp(1em, 8.5%, 30em), cover;
 					background-position: left top, right top, center;
@@ -2703,7 +2703,7 @@ input, select, textarea {
 
 	#footer.desktop {
 		position: relative;
-		background: url("../../images/pillar.png"), url("../../images/pillar_flipped.png"), url("../../images/footer-bg.png");
+		background: url("../../images/pillar.webp"), url("../../images/pillar_flipped.webp"), url("../../images/footer-bg.webp");
 		margin: 0;
 		background-size: clamp(1em, 3.65%, 30em), clamp(1em, 3.65%, 30em), cover;
 		background-position: left top, right top, center;
@@ -2714,7 +2714,7 @@ input, select, textarea {
 
 	#footer.narrow {
 		position: relative;
-		background: url("../../images/pillar.png"), url("../../images/pillar_flipped.png"), url("../../images/footer-bg.png");
+		background: url("../../images/pillar.webp"), url("../../images/pillar_flipped.webp"), url("../../images/footer-bg.webp");
 		margin: 0;
 		background-size: clamp(1em, 8.5%, 30em), clamp(1em, 8.5%, 30em), cover;
 		background-position: left top, right top, center;
@@ -2725,7 +2725,7 @@ input, select, textarea {
 
 	#footer.mobile {
 		position: relative;
-		background: url("../../images/pillar.png"), url("../../images/pillar_flipped.png"), url("../../images/footer-bg.png");
+		background: url("../../images/pillar.webp"), url("../../images/pillar_flipped.webp"), url("../../images/footer-bg.webp");
 		margin: 0;
 		background-size: clamp(1em, 8.5%, 30em), clamp(1em, 8.5%, 30em), cover;
 		background-position: left top, right top, center;
