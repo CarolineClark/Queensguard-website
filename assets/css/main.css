@@ -2455,7 +2455,7 @@ input, select, textarea {
 			background-position: center;
 			background-repeat: no-repeat;
 			display: absolute;
-			transform: translateY(-70px);
+			transform: translateY(-20px);
 		}
 
 		#header .logo-banner img{
