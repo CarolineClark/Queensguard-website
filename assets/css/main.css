@@ -183,6 +183,7 @@ input, select, textarea {
 		line-height: 1.25em;
 		font-size: 0.8em;
 		text-shadow: 0px 3px 1px rgba(51, 0, 20, 0.164);
+		z-index: 100;
 	}
 
 	h5, h6 {
