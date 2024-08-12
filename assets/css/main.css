@@ -2249,7 +2249,7 @@ input, select, textarea {
 			}
 		
 		.mailing-list-button button {
-			margin: 70px;
+			margin: 30px;
 			width: auto;
 		}
 
@@ -2540,6 +2540,7 @@ input, select, textarea {
 
 		#header.available-on-buttons {
 			transform: translateY(0px);
+			margin-bottom: 200px;
 		}
 
 		#header .available-on-buttons.mobile {
