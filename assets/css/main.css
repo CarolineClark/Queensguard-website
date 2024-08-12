@@ -1144,7 +1144,7 @@ input, select, textarea {
 					}
 
 					.row.banner-row > * {
-						padding: 0 0 0px 30px;
+						padding: 0 0 15px 30px;
 					}
 
 					.row.gtr-uniform {
@@ -2455,7 +2455,9 @@ input, select, textarea {
 			background-position: center;
 			background-repeat: no-repeat;
 			display: absolute;
-			transform: translateY(-20px);
+			transform: translateY(-50px);
+			padding-top: 50px;
+			margin-bottom: -100px;
 		}
 
 		#header .logo-banner img{
@@ -2537,7 +2539,7 @@ input, select, textarea {
 		}
 
 		#header.available-on-buttons {
-			transform: translateY(-135px);
+			transform: translateY(0px);
 		}
 
 		#header .available-on-buttons.mobile {
