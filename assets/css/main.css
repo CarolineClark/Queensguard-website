@@ -307,6 +307,10 @@ input, select, textarea {
 			text-align: right;
 		}
 
+		p.glas-body {
+			text-align: right;
+		}
+
 	header {
 		margin-bottom: 1em;
 	}
@@ -2540,7 +2544,6 @@ input, select, textarea {
 
 		#header.available-on-buttons {
 			transform: translateY(0px);
-			margin-bottom: 200px;
 		}
 
 		#header .available-on-buttons.mobile {
@@ -2624,7 +2627,7 @@ input, select, textarea {
 				background-size: clamp(1em, 3.65%, 30em), clamp(1em, 3.65%, 30em), cover;
 				background-position: left top, right top, center;
 				background-repeat: repeat-y, repeat-y, no-repeat;
-				padding: 12em 0em 16em 0em;
+				padding: 10em 0em 16em 0em;
 				text-align: right;
 			}
 
