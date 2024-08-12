@@ -145,6 +145,8 @@ input, select, textarea {
 		font-weight: 300;
 		line-height: 1.5em;
 		text-shadow: 0px 3px 2px rgb(51, 0, 20);
+		z-index: 100;
+		position: relative;
 	}
 	
 	h2 {
@@ -155,6 +157,8 @@ input, select, textarea {
 		line-height: 1.25em;
 		font-size: 1.25em;
 		text-shadow: 0px 2px 2px rgba(51, 0, 20, 0.63);
+		z-index: 100;
+		position: relative;
 	}
 
 		h2.name {
@@ -173,6 +177,8 @@ input, select, textarea {
 		line-height: 1.25em;
 		font-size: 0.8em;
 		text-shadow: 0px 2px 1px rgba(51, 0, 20, 0.164);
+		z-index: 100;
+		position: relative;
 	}
 
 	h4 {
@@ -184,6 +190,7 @@ input, select, textarea {
 		font-size: 0.8em;
 		text-shadow: 0px 3px 1px rgba(51, 0, 20, 0.164);
 		z-index: 100;
+		position: relative;
 	}
 
 	h5, h6 {
@@ -193,6 +200,8 @@ input, select, textarea {
 		font-weight: 50;
 		line-height: 1.5em;
 		text-shadow: 0px 1px 2px rgb(51, 0, 20);
+		z-index: 100;
+		position: relative;
 	}
 
 	h2.name.right, 	h5.name.right {
@@ -290,6 +299,8 @@ input, select, textarea {
 
 	p {
 		text-align: justify;
+		position: relative;
+		z-index: 100;
 	}
 
 		.main.desktop > .glas-section > .container > p {
@@ -2676,7 +2687,7 @@ input, select, textarea {
 					background-size: clamp(1em, 8.5%, 30em), clamp(1em, 8.5%, 30em), auto 1200px;
 					background-position: left top, right top, right bottom;
 					background-repeat: repeat-y, repeat-y, no-repeat;
-					padding: 15em 0em 5em 0em;
+					padding: 12em 0em 5em 0em;
 				}
 
 			.main > .content.style4 {
