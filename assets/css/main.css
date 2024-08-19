@@ -2486,7 +2486,7 @@ input, select, textarea {
 
 		#header.narrow {
 			height: 70em;
-			background-image: url("../../images/pillar-02.webp"), url("../../images/pillar-02-flipped.webp"), url("../../images/pillar.webp"), url("../../images/pillar_flipped.webp"), linear-gradient(0deg, rgba(75,113,113,0.8) 0%, rgba(130,168,170,0.8) 100%), url("../../images/header-mobile-bg-02.png");
+			background-image: url("../../images/pillar-02.webp"), url("../../images/pillar-02-flipped.webp"), url("../../images/pillar.webp"), url("../../images/pillar_flipped.webp"), linear-gradient(0deg, rgba(75,113,113,0.8) 0%, rgba(130,168,170,0.8) 100%), url("../../images/header-mobile-bg-02.webp");
 			/* filter:brightness(80%); */
 			background-size:clamp(1em, 35%, 40em), clamp(10em, 35%, 40em), clamp(1em, 8.5%, 30em), clamp(1em, 8.5%, 30em), auto 15em, auto 950px;
 			background-position:  left top, right top, left center, right center, top center, center top;
@@ -2514,7 +2514,7 @@ input, select, textarea {
 		#header.mobile {
 			height: 60em;
 			padding-top: 10px;
-			background-image: url("../../images/pillar-02.webp"), url("../../images/pillar-02-flipped.webp"), url("../../images/pillar.webp"), url("../../images/pillar_flipped.webp"), linear-gradient(0deg, rgba(75,113,113,0.8) 0%, rgba(130,168,170,0.8) 100%), url("../../images/header-mobile-bg-02.png");
+			background-image: url("../../images/pillar-02.webp"), url("../../images/pillar-02-flipped.webp"), url("../../images/pillar.webp"), url("../../images/pillar_flipped.webp"), linear-gradient(0deg, rgba(75,113,113,0.8) 0%, rgba(130,168,170,0.8) 100%), url("../../images/header-mobile-bg-02.webp");
 			/* filter:brightness(80%); */
 			background-size:clamp(1em, 35%, 40em), clamp(10em, 35%, 40em), clamp(1em, 8.5%, 30em), clamp(1em, 8.5%, 30em), auto 10em, auto 900px;
 			background-position:  left top, right top, left center, right center, top center, center top;
