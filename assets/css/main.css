@@ -212,6 +212,10 @@ input, select, textarea {
 		text-align: left;
 	}
 
+	h2.name.left.mobile, h5.name.left.mobile {
+		margin-left: 25px;
+	}
+
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 		color: inherit;
 		text-decoration: none;
@@ -2661,12 +2665,12 @@ input, select, textarea {
 				}
 
 				.main.mobile > .content.style2 {
-					height: 77em;
+					height: 90em;
 					background: url("../../images/pillar.webp"), url("../../images/pillar_flipped.webp"), url("../../images/bg02-A.webp");
-					background-size: clamp(1em, 8.5%, 30em), clamp(1em, 8.5%, 30em), auto 1200px;
+					background-size: clamp(1em, 8.5%, 30em), clamp(1em, 8.5%, 30em), auto 1300px;
 					background-position: left top, right top, left bottom;
 					background-repeat: repeat-y, repeat-y, no-repeat;
-					padding: 12em 0em 5em 0em;
+					padding: 10em 0em 5em 0em;
 				}
 
 			.main > .content.style3 {
@@ -2692,7 +2696,7 @@ input, select, textarea {
 				.main.mobile > .content.style3 {
 					height: 77em;
 					background: url("../../images/pillar.webp"), url("../../images/pillar_flipped.webp"), url("../../images/bg03-A.webp");
-					background-size: clamp(1em, 8.5%, 30em), clamp(1em, 8.5%, 30em), auto 1200px;
+					background-size: clamp(1em, 8.5%, 30em), clamp(1em, 8.5%, 30em), auto 1100px;
 					background-position: left top, right top, right bottom;
 					background-repeat: repeat-y, repeat-y, no-repeat;
 					padding: 12em 0em 5em 0em;
